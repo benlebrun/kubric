@@ -19,7 +19,7 @@ from kubric.renderer.blender import Blender as KubricRenderer
 logging.basicConfig(level="INFO")
 
 # --- create scene and attach a renderer to it
-scene = kb.Scene(resolution=(256, 256))
+scene = kb.Scene(resolution=(1280, 640))
 renderer = KubricRenderer(scene)
 
 # --- populate the scene with objects, lights, cameras
